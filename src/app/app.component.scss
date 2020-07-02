@@ -1,0 +1,82 @@
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  background: url("https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/marvel.jpg?alt=media&token=f68b9504-fe4b-41b7-b915-38992992bed4");
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 30px auto;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card1 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card1 .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card1 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -190px;
+  height: 40px;
+}
+
+.card1:hover {
+  background: url('https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/ezgif.com-video-to-gif.gif?alt=media&token=61c5d8a3-09b6-4fdf-8de2-daa28007e559');
+  background-position: 50% 50%;
+  background-size: cover;
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
