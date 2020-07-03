@@ -7,9 +7,9 @@
 }
 
 .card1 {
-  background: url("https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/marvel.jpg?alt=media&token=f68b9504-fe4b-41b7-b915-38992992bed4");
+  background-image: linear-gradient(rgb(107, 107, 233), rgb(13, 29, 80));
   background-size: cover;
-  background-position: 50% 50%;
+  // background-position: 50% 50%;
   margin: 30px auto;
   width: 400px;
   height: 200px;
@@ -43,7 +43,7 @@
 }
 
 .card1:hover {
-  background: url('https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/ezgif.com-video-to-gif.gif?alt=media&token=61c5d8a3-09b6-4fdf-8de2-daa28007e559');
+  background: url('https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/ezgif.com-optimize%20(1).gif?alt=media&token=5bab5f33-0bd7-46c6-bb86-fdf85e6d946b');
   background-position: 50% 50%;
   background-size: cover;
   transform: scale(1.1, 1.1);
@@ -51,9 +51,9 @@
 }
 
 .card2 {
-  background-color: black;
+  background-image: linear-gradient(rgb(107, 107, 233), rgb(13, 29, 80));
   background-size: cover;
-  background-position: 50% 50%;
+  // background-position: 50% 50%;
   margin: 30px auto;
   width: 400px;
   height: 200px;
@@ -88,6 +88,51 @@
 
 .card2:hover {
   background: url('https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/ezgif.com-video-to-gif%20(1).gif?alt=media&token=823f15b4-632a-4616-b729-6eb306156f03');
+  background-position: 50% 50%;
+  background-size: cover;
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.card3 {
+  background-image: linear-gradient(rgb(107, 107, 233), rgb(13, 29, 80));
+  // background: black;
+  background-size: cover;
+  // background-position: 50% 50%;
+  margin: 30px auto;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card3 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card3 .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card3 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -190px;
+  height: 40px;
+}
+
+.card3:hover {
+  background: url('https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/ezgif.com-gif-maker.gif?alt=media&token=9c18aa54-5177-4e93-8905-0d7563c7cbd6');
   background-position: 50% 50%;
   background-size: cover;
   transform: scale(1.1, 1.1);
