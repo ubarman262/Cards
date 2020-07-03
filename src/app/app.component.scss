@@ -50,6 +50,51 @@
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
+.card2 {
+  background-color: black;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 30px auto;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card2 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card2 .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card2 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -190px;
+  height: 40px;
+}
+
+.card2:hover {
+  background: url('https://firebasestorage.googleapis.com/v0/b/imagepoc-a54c2.appspot.com/o/ezgif.com-video-to-gif%20(1).gif?alt=media&token=823f15b4-632a-4616-b729-6eb306156f03');
+  background-position: 50% 50%;
+  background-size: cover;
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+
 .title-white {
   color: white;
 }
